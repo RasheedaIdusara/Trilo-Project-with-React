@@ -1,9 +1,10 @@
 import '../styles/Header.css';
+import logo from "../assets/logo.png";
 
 const Header = () => {
     return (
         <>
-            <img src="src/assets/logo.png" alt="trilo Logo" className="logo" />
+            <img src={logo} alt="trilo Logo" className="logo" />
 
             <form action="#" className="search">
                 <input type="text" className="search_input" placeholder='Search Hotels'/>
