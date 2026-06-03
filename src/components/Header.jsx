@@ -1,8 +1,6 @@
 import '../styles/Header.css';
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.jpeg";
-import logo from "../assets/logo.png";
-import logo from "../assets/logo.png";
 import sprite from "../assets/sprite.svg";
 
 const Header = () => {

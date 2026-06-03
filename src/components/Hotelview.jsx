@@ -1,17 +1,30 @@
 import '../styles/Hotelview.css';
 
+import hotel1 from "../assets/hotel-1.jpg";
+import hotel2 from "../assets/hotel-2.jpg";
+import hotel3 from "../assets/hotel-3.jpg";
+
+import user1 from "../assets/user-1.jpg";
+import user2 from "../assets/user-2.jpg";
+import user3 from "../assets/user-3.jpg";
+import user4 from "../assets/user-4.jpg";
+import user5 from "../assets/user-5.jpg";
+import user6 from "../assets/user-6.jpg";
+
+import sprite from "../assets/sprite.svg";
+
 const Hotelview = () => {
     return (
         <>
             <div className="gallery">
                 <figure className="gallery_item">
-                    <img src="src/assets/hotel-1.jpg" alt="Photo of Hotel 1" className="gallery_photo" />
+                    <img src={hotel1} alt="Photo of Hotel 1" className="gallery_photo" />
                 </figure>
                 <figure className="gallery_item">
-                    <img src="src/assets/hotel-2.jpg" alt="Photo of Hotel 1" className="gallery_photo" />
+                    <img src={hotel2} alt="Photo of Hotel 2" className="gallery_photo" />
                 </figure>
                 <figure className="gallery_item">
-                    <img src="src/assets/hotel-3.jpg" alt="Photo of Hotel 1" className="gallery_photo" />
+                    <img src={hotel3} alt="Photo of Hotel 3" className="gallery_photo" />
                 </figure>
             </div>
 
@@ -21,24 +34,24 @@ const Hotelview = () => {
                 </h1>
                 <div className="overview_stars">
                     <svg className="overview_star_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-star"></use>
+                        <use xlinkHref={`${sprite}#icon-star`}></use>
                     </svg>
                     <svg className="overview_star_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-star"></use>
+                        <use xlinkHref={`${sprite}#icon-star`}></use>
                     </svg>
                     <svg className="overview_star_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-star"></use>
+                        <use xlinkHref={`${sprite}#icon-star`}></use>
                     </svg>
                     <svg className="overview_star_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-star"></use>
+                        <use xlinkHref={`${sprite}#icon-star`}></use>
                     </svg>
                     <svg className="overview_star_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-star"></use>
+                        <use xlinkHref={`${sprite}#icon-star`}></use>
                     </svg>
                 </div>
                 <div className="overview_location">
                     <svg className="overview_location_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-location-pin"></use>
+                        <use xlinkHref={`${sprite}#icon-location-pin`}></use>
                     </svg>
                     <button className="overview_location_btn_inline">Albufeira, Portugal</button>
                 </div>
@@ -73,11 +86,11 @@ const Hotelview = () => {
                         <p className="recommend__count">
                             Lucy and 3 other friends recommend this hotel.
                         </p>
-                        <div class="recommend__friends">
-                            <img src="/src/assets/user-3.jpg" alt="Friend 1" className="recommend__photo" />
-                            <img src="/src/assets/user-4.jpg" alt="Friend 2" className="recommend__photo" />
-                            <img src="/src/assets/user-5.jpg" alt="Friend 3" className="recommend__photo" />
-                            <img src="/src/assets/user-6.jpg" alt="Friend 4" className="recommend__photo" />
+                        <div className="recommend__friends">
+                            <img src={user3} alt="Friend 1" className="recommend__photo" />
+                            <img src={user4} alt="Friend 1" className="recommend__photo" />
+                            <img src={user5} alt="Friend 1" className="recommend__photo" />
+                            <img src={user6} alt="Friend 1" className="recommend__photo" />
                         </div>
                     </div>
 
@@ -89,7 +102,7 @@ const Hotelview = () => {
                         </blockquote>
 
                         <figcaption className="review__user">
-                            <img src="src/assets/user-2.jpg" alt="User 2" className="review__photo" />
+                            <img src={user2} alt="User 2" className="review__photo" />
                             <div className="review__user-box">
                                 <p className="review__user-name">Emma Sydeny</p>
                                 <p className="review__user-date">oct 13th, 2025</p>
@@ -104,7 +117,7 @@ const Hotelview = () => {
                         </blockquote>
 
                         <figcaption className="review__user">
-                            <img src="src/assets/user-1.jpg" alt="User 2" className="review__photo" />
+                            <img src={user1} alt="User 1" className="review__photo" />
                             <div className="review__user-box">
                                 <p className="review__user-name">Mathiw Smith</p>
                                 <p className="review__user-date">sept 13th, 2024</p>

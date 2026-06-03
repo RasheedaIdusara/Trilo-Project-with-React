@@ -1,4 +1,5 @@
 import '../styles/Navigation.css';
+import sprite from '../assets/sprite.svg';
 
 const Navigation = () =>{
 
@@ -8,7 +9,7 @@ const Navigation = () =>{
             <li className="side_nav_item side_nav_item_active">
                 <a href="#" className="side_nav_link">
                     <svg className="side_nav_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-home"></use>
+                        <use xlinkHref={`${sprite}#icon-home`}></use>
                     </svg>
                     <span>Hotel</span>
                 </a>
@@ -17,7 +18,7 @@ const Navigation = () =>{
             <li className="side_nav_item">
                 <a href="#" className="side_nav_link">
                     <svg className="side_nav_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-aircraft-take-off"></use>
+                        <use xlinkHref={`${sprite}#icon-aircraft-take-off`}></use>
                     </svg>
                     <span>Flight</span>
                 </a>
@@ -26,7 +27,7 @@ const Navigation = () =>{
             <li className="side_nav_item">
                 <a href="#" className="side_nav_link">
                     <svg className="side_nav_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-key"></use>
+                        <use xlinkHref={`${sprite}#icon-key`}></use>
                     </svg>
                     <span>Car Rental</span>
                 </a>
@@ -35,7 +36,7 @@ const Navigation = () =>{
             <li className="side_nav_item">
                 <a href="#" className="side_nav_link">
                     <svg className="side_nav_icon">
-                        <use xlinkHref="/src/assets//sprite.svg#icon-map"></use>
+                        <use xlinkHref={`${sprite}#icon-map`}></use>
                     </svg>
                     <span>Tours</span>
                 </a>
