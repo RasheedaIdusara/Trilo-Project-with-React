@@ -1,5 +1,9 @@
 import '../styles/Header.css';
 import logo from "../assets/logo.png";
+import profile from "../assets/profile.jpeg";
+import logo from "../assets/logo.png";
+import logo from "../assets/logo.png";
+import sprite from "../assets/sprite.svg";
 
 const Header = () => {
     return (
@@ -10,7 +14,7 @@ const Header = () => {
                 <input type="text" className="search_input" placeholder='Search Hotels'/>
                 <button className="search_btn">
                     <svg className="search_icon">
-                        <use xlinkHref="/src/assets/sprite.svg#icon-magnifying-glass"></use>
+                        <use xlinkHref={`${sprite}#icon-magnifying-glass`}></use>
                     </svg>
                 </button>
             </form>
@@ -18,20 +22,20 @@ const Header = () => {
             <nav className="user_nav">
                 <div className="user_nav_icon_box">
                     <svg className="user_nav_icon">
-                        <use xlinkHref='/src/assets/sprite.svg#icon-bookmark'></use>
+                        <use xlinkHref={`${sprite}#icon-bookmark`}></use>
                     </svg>
                     <span className="user_nav_notification">7</span>
                 </div>
 
                 <div className="user_nav_icon_box">
                     <svg className="user_nav_icon">
-                        <use xlinkHref='/src/assets/sprite.svg#icon-chat'></use>
+                        <use xlinkHref={`${sprite}#icon-chat`}></use>
                     </svg>
                     <span className="user_nav_notification">10</span>
                 </div>
 
                 <div className="user_nav_user">
-                    <img src="/src/assets/profile.jpeg" alt="User Photo" className="user_nav_user_photos" />
+                    <img src={profile} alt="User Photo" className="user_nav_user_photos" />
                     <span className="user_nav_user_name">Rasheeda</span>
                 </div>
             </nav>
