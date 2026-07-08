@@ -21,6 +21,7 @@ https://trilo-project-with-react.vercel.app/
 - Vite
 - CSS3
 - HTML5
+-  JavaScript (ES6+)
 
 ## 📸 Screenshots
 ### 💻 Desktop View
