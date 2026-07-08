@@ -1,16 +1,37 @@
-# React + Vite
+# Trillo Hotel Booking UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive hotel booking user interface built with React and CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://trilo-project-with-react.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive Design
+- Modern UI
+- CSS Animations
+- Flexbox Layout
+- SVG Icons
+- Component Based Architecture
 
-## Expanding the ESLint configuration
+## 🛠 Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS3
+- HTML5
+
+## 📸 Screenshots
+Descktop look
+<img width="610" height="564" alt="image" src="https://github.com/user-attachments/assets/83a669b5-d7b5-4a59-b12f-394cff58b076" />
+
+Mobile View
+<img width="305" height="529" alt="image" src="https://github.com/user-attachments/assets/e5f05d95-d708-455a-b024-4c5c7009a197" />
+
+## 📌 Future Improvements
+
+- Node.js Backend
+- Authentication
+- Hotel Booking
+- Payment Integration
