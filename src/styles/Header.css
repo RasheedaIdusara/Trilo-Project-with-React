@@ -34,7 +34,41 @@
 @media only screen and (max-width: 500px) {
   .search{
     order: 1;
-    flex: 0 0 100%;
+    flex:0 0 calc(100% - 3rem);
+    padding: 0 1.5rem;
+    margin-top:.6rem;
+  }
+
+  .search_input{
+    width: 100%;
+    padding: .9rem 2rem;
+    box-sizing:border-box;
+  }
+
+  .search_icon{
+    height: 1.8 rem;
+    width: 1.8 rem;
+  }
+
+  .search_btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .user_nav_user_name{
+    display: none;
+  }
+
+  .user_nav_user_photos{
+    height: 3rem;
+    margin-left: 0;
+  }
+  .user_nav_icon_box{
+    padding: 0 1rem;;
+  }
+  .logo{
+    margin-left: 1rem;
   }
 
 }
